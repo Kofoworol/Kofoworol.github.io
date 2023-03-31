@@ -1,0 +1,49 @@
+#contaner{
+    border : none;
+    box-shadow: inset whitesmoke 4px 8px 12px; 
+    box-shadow: 8px 10px 12px whitesmoke;
+    
+       
+}
+#wrapper{
+    background-color: whitesmoke;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 400px;
+    
+    
+   
+        
+}
+input{
+   grid-column: span 4;
+   border-radius: 30px;
+   height: 3rem;
+   border:none ;
+   text-align: end;
+   font-size: 3rem;
+   box-shadow: inset whitesmoke 5px 5px 12px;
+   box-shadow: inset whitesmoke 5px 5px 12px;
+
+}
+#button{
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    border-spacing: 30px;
+    margin: 10px;
+    
+}
+.cal{
+    grid-column: span 2;
+}
+.per{
+    grid-row: span 2 ;
+}
